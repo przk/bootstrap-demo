@@ -1,0 +1,343 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 750px;
+}
+.main-container {
+  visibility: inherit;
+}
+.header-container {
+  background: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+.header-content {
+  height: 70px;
+}
+.content {
+  max-width: 1200px;
+  min-width: 750px;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 15;
+}
+.header-logo {
+  padding-top: 21px;
+}
+.menu-option {
+  padding: 21px 0 0;
+  margin-left: 47px;
+  color: lightgrey;
+  display: inline-block;
+  text-decoration: none;
+}
+.menu-option:hover {
+  color: white;
+}
+#general {
+  padding-top: 180px;
+  padding-bottom: 110px;
+  background-color: #000;
+  position: relative;
+  align-items: center;
+}
+#general .background {
+  position: absolute;
+  bottom: 0px;
+  opacity: 52%;
+  background-image: url('imgs/background.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#general .z50 {
+  z-index: 50;
+}
+#general .z50 .me-auto {
+  width: 520px;
+}
+#general div {
+  position: static;
+}
+#general div div {
+  position: relative;
+}
+#general .kl {
+  padding: 0;
+  margin: 0;
+}
+#general .card {
+  height: 350px;
+}
+#general .card .card-header {
+  border: none;
+  padding: 12px;
+}
+#general .card .card-footer {
+  background: #ff9b51;
+  outline: #ff9b51 1px solid;
+  padding: 0;
+}
+#general .card input::placeholder {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+#general .card input {
+  font-size: 14px;
+  border-bottom: #bdbdbd 1px solid;
+  border-radius: 0;
+}
+#general p {
+  font-weight: 200;
+}
+.general-distance {
+  content: ' ';
+  margin: 50px;
+}
+.submit {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 14px 0;
+  color: white;
+}
+.submit:hover {
+  background: #ff892e;
+  color: white;
+}
+.trial-header {
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+.orange {
+  color: #ff9b51;
+}
+.main-h1 {
+  color: white;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.divider {
+  background: white;
+  width: 64px;
+  height: 2px;
+  margin: 40px 2px;
+}
+.divider2 {
+  width: 64px;
+  height: 2px;
+  margin: 20px 20px;
+  display: inline-block;
+}
+.orangebg {
+  background: #ff9b51;
+}
+.whitebg {
+  background: white;
+}
+.main-description {
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 35px;
+}
+#try-form {
+  width: 360px;
+}
+.plain-textfield {
+  margin: 36px 0;
+  border: none;
+  width: 285px;
+}
+.download-button {
+  width: 135px;
+  padding: 8px 0;
+  border-radius: 0;
+  border-width: 2px;
+  font-size: 15px;
+  margin: 0;
+}
+.social-container {
+  background: white;
+  box-shadow: 0 1px 3px #999;
+  padding: 20px 0 16px;
+}
+.social-label {
+  padding-left: 0;
+  padding-right: 0;
+}
+.social-label h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.social-label p {
+  font-size: 14px;
+  color: #86878b;
+  margin: 0;
+}
+.social-icons {
+  margin: 10px 0 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+#feature {
+  font-size: 14px;
+  color: #86878b;
+  padding: 70px 0 110px;
+}
+#feature .btn-group-vertical {
+  height: 333px;
+}
+#feature .btn-group-vertical .btn {
+  padding: 45px 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  background: #333;
+  color: white;
+  border-color: white;
+  border-width: 0;
+  margin: 0.5px;
+}
+#feature .btn-group-vertical .btn:hover {
+  background: #444;
+}
+#feature .btn-group-vertical .selected-label {
+  background: #ff892e;
+}
+#feature .btn-group-vertical .selected-label:hover {
+  background: #ff9b51;
+}
+#feature .btn {
+  font-size: 15px;
+  color: white;
+  background: #ff892e;
+  padding: 10px 20px;
+  box-shadow: 0 1px 1px #999;
+}
+#feature .btn:hover {
+  background: #ff9b51;
+}
+#feature p {
+  font-size: 14px;
+}
+#feature .p-big-margin-down {
+  margin-bottom: 50px;
+}
+#feature h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 0 0 50px 0;
+}
+.gray-background {
+  background: #f5f5f5;
+}
+#stylish {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  background-color: #000;
+  align-items: center;
+}
+#stylish .background {
+  position: absolute;
+  bottom: 0px;
+  opacity: 40%;
+  background-image: url('imgs/background2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#stylish h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  color: white;
+}
+#stylish div {
+  position: static;
+}
+#stylish div div {
+  position: relative;
+}
+#stylish .z50 {
+  z-index: 50;
+}
+#stylish .z50 .me-auto {
+  width: 520px;
+}
+#stylish p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+  font-weight: 200;
+}
+#stylish .download-button {
+  margin-top: 20px;
+}
+#contact {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 80px;
+}
+#contact h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+}
+#contact p {
+  color: #86878b;
+}
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #bdbdbd;
+  font-size: 14px;
+}
+#contact input {
+  width: 100%;
+  font-size: 14px;
+  border-bottom: #bdbdbd 1px solid;
+  border-radius: 0;
+}
+#contact textarea {
+  width: 100%;
+  min-height: 175px;
+  font-size: 14px;
+  resize: none;
+  border-bottom: #bdbdbd 1px solid;
+  border-radius: 0;
+}
+.button-orange {
+  background: #ff9b51;
+  box-shadow: 0 1px 1px #999;
+  color: white;
+  border: none;
+  margin: 0;
+  padding: 10px 25px;
+  font-size: 15px;
+}
+.button-orange:hover {
+  background: #ff892e;
+}
+#footer {
+  background: black;
+  padding: 20px 0 15px;
+  text-align: center;
+}
+#footer p {
+  font-size: 12px;
+  color: white;
+  opacity: 0.5;
+  margin: 15px 0 0;
+}

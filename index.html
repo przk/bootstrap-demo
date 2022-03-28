@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netkodo demo - Przemysław Kuligowski</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--link rel="stylesheet/less" type="text/css" href="styles.less" >
+    <script src="https://cdn.jsdelivr.net/npm/less@4" type="text/javascript"></script-->
+    <link rel="stylesheet" type="text/css" href="styles.css" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mx-auto main-container container-fluid px-0">
+        <div class="header-container">
+            <div class="header-content mx-auto d-flex content">
+                <figure class="me-auto">
+                    <img alt="logo" src="imgs/Logo1.png" class="header-logo" />
+                </figure>
+                <nav class="menu-options">
+                    <a href="#" class="menu-option btn">Features</a>
+                    <a href="#" class="menu-option btn">About</a>
+                    <a href="#" class="menu-option btn">Pricing</a>
+                    <a href="#" class="menu-option btn">Reviews</a>
+                    <a href="#" class="menu-option btn">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div id="general">
+            <div class="background">
+            </div>
+            <div class="mx-auto container d-flex content z50 row">
+                <div class="me-auto col-xl-8 col-lg-12 kl ms-xl-0 me-xl-auto mx-lg-auto mx-md-auto mx-sm-auto mx-auto">
+                    <img src="imgs/Logo.png" alt="logo" />
+                    <h1 class="main-h1">MODERN AXURE TEMPLATE<br />FOR BEAUTIFUL PROTOTYPES</h1>
+                    <div class="divider"></div>
+                    <p class="main-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo.
+                    </p>
+                    <a href="#" class="btn btn-outline-light download-button">Download</a>
+                </div>
+                <div class="general-distance col-12 d-xl-none"></div>
+                <div class="card col-xl-4 col-lg-12 kl me-xl-0 ms-xl-auto mx-lg-auto mx-md-auto mx-sm-auto mx-auto" id="try-form">
+                    <div class="card-header trial-header text-center">
+                        Try Your <span class="orange text-uppercase">Free</span> Trial Today
+                    </div>
+                    <div>
+                        <input class="form-control plain-textfield mx-auto" type="text" placeholder="Name" />
+                        <input class="form-control plain-textfield mx-auto" type="email" placeholder="Email" />
+                        <input class="form-control plain-textfield mx-auto" type="password" placeholder="Password" />
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn submit">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-container">
+            <div class="social-content content mx-auto d-flex row">
+                <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 social-label me-xl-auto">
+                    <h3>Social Media</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                    </p>
+                </div>
+                <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 social-icons text-xl-end text-center">
+                    <img src="imgs/social_icons.png" alt="social media icons" class="d-inline-block" />
+                </div>
+            </div>
+        </div>
+
+        <div id="feature" class="feature-container gray-background">
+            <div class="content mx-auto d-flex">
+                <div class="btn-group-vertical col-auto me-5" role="group" aria-label="Radio toggle button group">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked="checked" onclick="switchTabs(this)">
+                    <label class="btn btn-outline-primary selected-label" for="btnradio1">Tab 1</label>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onclick="switchTabs(this)">
+                    <label class="btn btn-outline-primary" for="btnradio2">Tab 2</label>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onclick="switchTabs(this)">
+                    <label class="btn btn-outline-primary" for="btnradio3">Tab 3</label>
+                </div>
+                <div id="tab-container" class="col ms-auto" style="transition: opacity 0.5s ease-in-out;"></div>
+                <div id="tab1" hidden="hidden">
+                    <div class="d-flex row container">
+                        <div class="col-xl-7 me-xl-auto col-lg-12">
+                            <h2>Tabs with soft transitioning effect.</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                            </p>
+                            <p class="p-big-margin-down">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.
+                            </p>
+                            <a href="#" class="btn">Download</a>
+                        </div>
+                        <div class="general-distance col-12 d-xl-none"></div>
+                        <div class="col-xl-4 col-lg-12 text-center">
+                            <img src="imgs/city.png" alt="city" />
+                        </div>
+                    </div>
+                </div>
+                <div id="tab2" hidden="hidden">
+                    <div class="d-flex row container">
+                        <div>
+                            <h2>Second tab is selected now.</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. 
+                            </p>
+                            <p>
+                                Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. 
+                            </p>
+                            <p>
+                                Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab3" hidden="hidden">
+                    <div class="d-flex row container">
+                        <div class="col-xl-4 col-lg-12 text-center">
+                            <img src="imgs/city2.png" width="300" alt="city" />
+                        </div>
+                        <div class="general-distance col-12 d-xl-none"></div>
+                        <div class="col-xl-7 ms-xl-auto col-lg-12">
+                            <h2>Very good product.</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                            </p>
+                            <p class="p-big-margin-down">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.
+                            </p>
+                            <a href="#" class="btn">Get Now</a>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    document.getElementById('tab-container').innerHTML = document.getElementById('tab1').innerHTML;
+                </script>
+            </div>
+        </div>
+
+        <div id="stylish" class="stylish-container">
+            <div class="background"></div>
+            <div class="container content mx-auto z50 d-flex row text-center">
+                <div>
+                    <h2>STYLISH AXURE DESIGN</h2>
+                    <div class="divider2 whitebg mx-auto"></div>
+                    <p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+                    <a href="#" class="btn btn-outline-light download-button d-inline-block">Download</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact-container">
+            <div class="content mx-auto">
+                <h2 class="text-uppercase">Contact Us</h2>
+                <div class="divider2 orangebg"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-12 pe-xl-3">
+                        <input class="form-control plain-textfield" type="text" placeholder="Name" />
+                        <input class="form-control plain-textfield" type="email" placeholder="Email" />
+                        <input class="form-control plain-textfield" type="text" placeholder="Subject" />
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-12">
+                        <textarea class="form-control plain-textfield ms-xl-3 mx-auto" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-outline-dark button-orange">Send Message</a>
+            </div>
+        </div>
+
+        <div id="footer" class="footer-container">
+            <div class="content mx-auto">
+                <img src="imgs/social_icons_small.png" alt="social media icons" class="d-inline-block m-0 p-0" />
+                <p class="copyright">&copy; 2015 Axure Themes</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script>
+        function switchTabs(elem){
+            var id = elem.id;
+            labels = document.getElementsByTagName('label');
+            for(var i = 0; i < labels.length; i++) {
+                if (labels[i].htmlFor == id)
+                {
+                    if(labels[i].classList.contains('selected-label')) break;
+                    other = document.getElementById('tab'+(i+1));
+                    labels[i].classList.add('selected-label');
+                    tabCont = document.getElementById('tab-container');
+                    tabCont.style.opacity = 0.0;
+                    setTimeout(() => {
+                        tabCont.style.opacity = 1;  
+                        tabCont.innerHTML = other.innerHTML;
+                    }, 250);
+                }
+                else
+                    labels[i].classList.remove('selected-label');
+            }
+        }
+    </script>
+</body>
+</html>
